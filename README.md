@@ -1,11 +1,21 @@
 # OperatingSystems-Allocator  
 
-About: This program manages a contiguous region of memory.  
-   		 Memory size specified at execution.  
-Commands: RQ P1 200600 B (Request ProcessName Size Approach)  
-   		    RL P0 (Release ProcessName)  
-   		    C (Compaction)  
-   		  	STAT (Status Report)  
-   		  	QUIT  
+<ul>
+   <li> About:
+      <ul> 
+         <li> This program manages a contiguous region of memory. </li>
+         <li> Memory size specified at execution. </li> 
+      </ul> 
+   </li>
+   <li> Commands:
+      <ul> 
+         <li> RQ P1 200600 B (Request ProcessName Size Approach) </li>
+   	   <li> RL P0 (Release ProcessName) </li>  
+         <li> C (Compaction) </li>  
+         <li> STAT (Status Report) </li>  
+         <li> QUIT </li>
+      </ul>
+   </li>
+ </ul>
 Compile: $ gcc allocator.c -o allocator  
 Execute: $ ./allocator 1048576  
