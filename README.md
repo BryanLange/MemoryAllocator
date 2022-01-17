@@ -1,4 +1,4 @@
-# OperatingSystems-Allocator  
+# Allocator  
 
 <ul>
    <li> About:
