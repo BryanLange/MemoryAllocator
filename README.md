@@ -16,6 +16,11 @@
          <li> QUIT </li>
       </ul>
    </li>
- </ul>
-Compile: $ gcc allocator.c -o allocator  
-Execute: $ ./allocator 1048576  
+   <li> Compile:
+      <ul>
+         <li> $ gcc allocator.c -o allocator </li>
+      </ul>
+   </li>
+   <li> Execute: $ ./allocator 1048576 </li>
+ </ul>  
+Execute:   
